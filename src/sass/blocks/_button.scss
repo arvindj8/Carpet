@@ -1,0 +1,62 @@
+.button {
+    width: 200px;
+    height: 40px;
+    background: $main-color;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+        transition: 0.7s all;
+        opacity: .7;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    &:focus {
+        outline: none;
+        outline-offset: 0;
+    }
+    &__a {
+        width: 200px;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        width: 200px;
+        height: 60px;
+        font-size: 18px;
+        border-radius: 30px;
+    }
+
+    &__card {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        width: 200px;
+        height: 60px;
+        font-size: 18px;
+        border-radius: 30px;  
+    }
+    &_footer {
+        margin-top: 5px;
+        width: 200px;
+        height: 50px;
+        font-size: 17px;
+    }
+    &_submit {
+        width: 100%;
+        height: 55px;
+        color: #ffffff;
+        font-size: 16px;
+    }
+
+}

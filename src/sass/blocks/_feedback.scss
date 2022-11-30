@@ -1,0 +1,53 @@
+.feedback {
+    min-height: 1130px;
+    padding: 81px 0 81px 0;
+    background-color: rgb(250, 250, 250);
+    hr {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        border: 5px solid #DEB887;
+        border-radius: 5px;
+    }
+    &__wrapp {
+        padding: 0 20px;
+    }
+    &-item {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        &:nth-child(2){
+            margin-top: 70px;
+        }
+        &__foto {
+            border-radius: 15%;
+            max-width: 259px;
+            height: 195px;
+        }
+        &__text {
+            max-width: 750px;
+            margin-left: 62px;
+            padding-right: 60px;
+        }
+        &__name {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 18px;
+            color: #0D0D0D; 
+        }
+        &__subname {
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+            line-height: 22px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: #0D0D0D; 
+        }
+    }
+    
+}
